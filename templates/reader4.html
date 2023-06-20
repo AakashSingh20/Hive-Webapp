@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="reader.css" /> -->
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reader.css' %}">
+  </head>
+
+  <body>
+    <div class="imgbox">
+      <img src="{% static 'img/x.jpg' %}">
+
+    </div>
+
+    <div class="title">In Cold Blood</div>
+
+    <div class="sub">Truman Capote</div>
+
+    <a href="pdf4">
+      <div class="button">Read Now</div>
+    </a>
+
+    <div class="des">
+      In Cold Blood is a pioneering example of both the nonfiction novel and the
+      modern true-crime story. The world of the victims is painstakingly and
+      sympathetically reconstructed, but Capote’s real interest is in the
+      emotional lives of Perry and, to a lesser extent, Dick and what might have
+      led them into such murderous excess. He also uses the polarities of this
+      case as the starting point for a larger examination of American values of
+      the late 1950s and early ’60s.
+    </div>
+  </body>
+</html>

@@ -48,7 +48,7 @@
 .item6 a {
     position: absolute;
     margin-top: 20px;
-    left: 1180px;
+    left: 1280px;
     font-size: 20px;
     /* border: 1px solid white; */
     /* background-color: #3b0087; */
@@ -86,6 +86,7 @@
 
 .item6,
 .item7 {
+    /* margin-left: 400px; */
     background-color: #3b0087;
 }
 
@@ -510,6 +511,41 @@ div#slider figure {
     position: absolute;
     background: none;
     top: 0%;
+    left: 0%;
+
+}
+
+.romscroll {
+
+    position: absolute;
+    background: none;
+    top: 1870px;
+    left: 0%;
+
+}
+
+.ficscroll {
+
+    position: absolute;
+    background: none;
+    top: 2480px;
+    left: 0%;
+
+}
+
+.nonficscroll {
+
+    position: absolute;
+    background: none;
+    top: 3100px;
+    left: 0%;
+
+}
+.clascroll {
+
+    position: absolute;
+    background: none;
+    top: 3750px;
     left: 0%;
 
 }

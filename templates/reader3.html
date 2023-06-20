@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="reader.css" /> -->
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reader.css' %}">
+  </head>
+
+  <body>
+    <div class="imgbox">
+      <img src="{% static 'img/w.jpg' %}">
+    </div>
+
+    <div class="title">Into the Wild</div>
+
+    <div class="sub">Jon Krakauer</div>
+
+    <a href="pdf3">
+      <div class="button">Read Now</div>
+    </a>
+
+    <div class="des">
+      Into the Wild tells the true story of the journey of 24-year-old
+      Christopher McCandless into Alaska’s Denali National Park and Preserve,
+      where he starved to death in an abandoned bus after spending four months
+      foraging and hunting game. Intelligent but burdened by anger at his
+      brilliant but overbearing and imperfect father, McCandless went entirely
+      without human contact for four months in an attempt to purify himself of
+      what he felt were the evils of civilization. 
+    </div>
+  </body>
+</html>

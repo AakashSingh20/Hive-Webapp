@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="reader.css" /> -->
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reader.css' %}">
+  </head>
+
+  <body>
+    <div class="imgbox">
+      <img src="{% static 'img/ad.jpg' %}">
+
+    </div>
+
+    <div class="title">Hamlet</div>
+
+    <div class="sub">William Shakespeare</div>
+
+    <a href="pdf6">
+      <div class="button">Read Now</div>
+    </a>
+
+    <div class="des">
+      The ghost of the King of Denmark tells his son Hamlet to avenge his murder
+      by killing the new king, Hamlet's uncle. Hamlet feigns madness,
+      contemplates life and death, and seeks revenge. His uncle, fearing for his
+      life, also devises plots to kill Hamlet. The play ends with a duel, during
+      which the King, Queen, Hamlet's opponent and Hamlet himself are all killed.
+    </div>
+  </body>
+</html>

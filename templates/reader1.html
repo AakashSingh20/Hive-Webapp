@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="reader.css" /> -->
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reader.css' %}">
+  </head>
+
+  <body>
+    <div class="imgbox">
+      <img src="{% static 'img/r.jpg' %}">
+    </div>
+
+    <div class="title">Pride and Prejudice</div>
+
+    <div class="sub">Austen, Jane</div>
+
+    <a href="pdf1">
+      <div class="button">Read Now</div>
+    </a>
+
+    <div class="des">
+      Pride and Prejudice is the story of a young woman in the 1800's, Elizabeth
+      Bennet. The Bennet family has five daughters, and in an age where the only
+      thing women could do was marry rich, all the girls are pressured to find
+      wealthy matches to secure the family's comfort. Elizabeth, however,
+      refuses to marry the first man the comes along, and only marry when for
+      love. She meets brooding, silent, proud and very rich Mr. Darcy, who at
+      first has no interest in Elizabeth. 
+    </div>
+  </body>
+</html>
